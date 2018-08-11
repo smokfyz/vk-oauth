@@ -1,0 +1,30 @@
+.auth-btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 200px;
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(107, 115, 233);
+    border: 1px solid rgb(73, 9, 133);
+    box-shadow: 1px 1px 10px 1px black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow linear 0.1s, transform linear 0.1s, box-shadow linear 0.1s;
+}
+
+.auth-btn:hover {
+    transform: scale(1.01);
+    border: 1px solid rgb(73, 9, 133);
+    box-shadow: 1px 1px 13px 1px black;
+    transition: box-shadow linear 0.1s, transform linear 0.1s, box-shadow linear 0.1s;
+}
+
+.auth-btn:active {
+    transform: scale(0.99);
+    border: 1px solid rgb(73, 9, 133);
+    box-shadow: 1px 1px 8px 1px black;
+    transition: box-shadow linear 0.05s, transform linear 0.05s, box-shadow linear 0.05s;
+}

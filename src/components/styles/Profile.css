@@ -1,0 +1,46 @@
+.profile {
+    color: white;
+    font-family: Calibri;
+    text-shadow: 1px 1px 10px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.logout-btn {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(235, 114, 114);
+    border: 1px solid rgb(218, 5, 5);
+    box-shadow: 1px 1px 10px 1px black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow linear 0.1s, transform linear 0.1s, box-shadow linear 0.1s;
+}
+
+.logout-btn:hover {
+    transform: scale(1.01);
+    border: 1px solid rgb(73, 9, 133);
+    box-shadow: 1px 1px 13px 1px black;
+    transition: box-shadow linear 0.1s, transform linear 0.1s, box-shadow linear 0.1s;
+}
+
+.logout-btn:active {
+    transform: scale(0.99);
+    border: 1px solid rgb(73, 9, 133);
+    box-shadow: 1px 1px 8px 1px black;
+    transition: box-shadow linear 0.05s, transform linear 0.05s, box-shadow linear 0.05s;
+}
